@@ -72,3 +72,16 @@ body {
     font-size: 24px;
     font-weight: bold;
   }
+  .loading {
+    animation: skeleton-loading 1s linear  alternate;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background: color #2b2626;;
+    }
+    100% {
+      background-color: hsl(204, 77%, 25%);
+    }
+  }
+  
